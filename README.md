@@ -4,12 +4,14 @@
 This is a basic day planner app that loops through the hours of 8am - 6pm for a specific date, which is the current day that the user opens the app. The app uses moment.js to handle time. The app also allows the user to enter and save text into any description field that has a class of future. The data will be saved to the localStorage of the browser. The past hours are highlighted Red the current hour light grey, and future hours light blue.
 
 ## Links:
-
 Live Site:
+    https://beattygraphics.github.io/Work_Day_Schediuler/
 
 GitHub Repo:
+    https://github.com/beattygraphics/Work_Day_Schediuler
 
 ReadMe: 
+    https://github.com/beattygraphics/Work_Day_Schediuler/blob/main/README.md
 
 ## USER STORY
 AS AN employee with a busy schedule
