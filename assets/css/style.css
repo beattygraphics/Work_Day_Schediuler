@@ -1,0 +1,108 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: black;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.planner-line {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: darkgreen;
+  color: white;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.date {
+  font-size: 35px;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  font-size: 16px;
+  border-style: dashed;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-color: grey;
+  padding: 15px;
+}
+
+.container {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour-time-block {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed black; 
+  border-bottom: 1px dashed black; 
+  border-left: 1px dashed black; 
+  padding: 10px;
+}
+
+/* color change by ID */
+.old {
+  background-color: rgb(247, 85, 64);
+  color: white;
+}
+
+.current {
+  background-color: rgb(184, 186, 187);
+  color: black;
+}
+
+.future {
+  background-color: rgb(171, 191, 228);
+  color: white;
+}
+
+/* Button styling */
+.saveBtn {
+  border-left: 2px solid black;
+  background-color: rgb(15, 141, 15);
+  color: white;  
+}
+
+.saveBtn, i:hover {
+  font-size: 12px;
+  transition: .5s ease-in-out;
+  transition: all;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* .complete {
+text-decoration: line-through !important;
+} */
+
+.save {
+  font-size: 200%;
+  color: black;
+}
